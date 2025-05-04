@@ -13,7 +13,7 @@ const GreenhouseSection = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="w-full bg-green-900 text-white py-20 px-4 mt-2">
+      <section className="select-none cursor-default w-full bg-green-900 text-white py-20 px-4 mt-2">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl font-extrabold mb-4 tracking-tight">
             Welcome to Our Greenhouse
@@ -46,7 +46,7 @@ const GreenhouseSection = () => {
       </section>
 
       {/* Pricing Section */}
-      <section className="w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
+      <section className="select-none cursor-default w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-green-900 text-center mb-10">
             Plant & Product Pricing
@@ -84,9 +84,9 @@ const GreenhouseSection = () => {
 
 
       {/* VITAZYME FEATURED PRODUCT SECTION */}
-      <section className="bg-gradient-to-br from-green-100 to-yellow-50 py-16 px-4 border-t border-green-200">
+      <section className="select-none cursor-default bg-gradient-to-br from-green-100 to-yellow-50 py-16 px-4 border-t border-green-200">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-green-800 text-center mb-10">
+          <h2 className="select-none cursor-default text-3xl font-bold text-green-800 text-center mb-10">
             Boost Your Soil with Vitazyme
           </h2>
 
@@ -110,15 +110,15 @@ const GreenhouseSection = () => {
                 />
               </div>
 
-              <p className="text-gray-700 text-base mb-3">
+              <p className="select-none cursor-default text-gray-700 text-base mb-3">
                 <strong>Vitazyme</strong> is an all-natural soil concentrate that improves fertility and boosts plant performance. Great for veggie starts, flowers, and crops.
               </p>
-              <ul className="list-disc list-inside text-green-800 font-medium space-y-1">
+              <ul className="select-none cursor-default list-disc list-inside text-green-800 font-medium space-y-1">
                 <li>Promotes stronger root systems</li>
                 <li>Improves nutrient absorption</li>
                 <li>Supports soil health naturally</li>
               </ul>
-              <p className="text-sm text-gray-500 mt-3">
+              <p className="select-none cursor-default text-sm text-gray-500 mt-3">
                 Available now in our greenhouse. Ask for details when you visit!
               </p>
             </div>
@@ -129,7 +129,7 @@ const GreenhouseSection = () => {
 
 
       {/* Gift Cards & Extras */}
-      <section className="w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
+      <section className="select-none cursor-default w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-green-800 mb-10 text-center">
             Gifts & Seasonal Extras
