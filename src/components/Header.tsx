@@ -16,7 +16,7 @@ const Header: React.FC<HeaderNavProps> = ({ onNavigate }) => {
   const menuItems = [
     { label: "Home", value: "home" },
     {
-      label: "Inventory",
+      label: "Products",
       submenu: [
         { label: "Soil", value: "soil" },
         { label: "Gravel", value: "gravel" },
@@ -24,7 +24,14 @@ const Header: React.FC<HeaderNavProps> = ({ onNavigate }) => {
         { label: "Decorative Rock", value: "rock" },
       ],
     },
-    { label: "Greenhouse", value: "greenhouse" },
+    { 
+      label: "Greenhouse", 
+      submenu: [
+        {label: "The Greenhouse", value:"greenhouse" },
+        {label: "Greenhouse Products", value:"inventory" },
+        {label: "Our Pictures", value:"pictures" },
+      ],
+    },
     { label: "Services", value: "services" },
     { label: "Affiliates", value: "affiliates" },
     { label: "Contact", value: "contact" },
