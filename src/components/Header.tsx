@@ -39,7 +39,7 @@ const Header: React.FC<HeaderNavProps> = ({ onNavigate }) => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-[1000] bg-white shadow-md">
+    <header className="fixed top-0 left-0 w-full z-[1000] bg-white shadow-md select-none cursor-default">
       {/* Logo and Tagline */}
       <div className="flex flex-col items-center justify-center py-4 border-b border-green-200 bg-white">
       <div className="flex items-center gap-4">
