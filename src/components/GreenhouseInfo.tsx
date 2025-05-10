@@ -8,7 +8,7 @@ const GreenhouseInfo = () => {
       <div className="max-w-6xl mx-auto">
         {/* Page Title */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-green-900 text-center mb-6 tracking-tight">
-          Berries Info Sheet
+          Berries & Plants Information Page
         </h1>
         <p className="text-center text-green-800 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
           A closer look at our berry selections including Gooseberry and Black Currant. View the original product info sheets below.
