@@ -28,6 +28,7 @@ const Header: React.FC<HeaderNavProps> = ({ onNavigate }) => {
       label: "Greenhouse", 
       submenu: [
         {label: "The Greenhouse", value:"greenhouse" },
+        {label: "Information", value:"info" },
         {label: "Greenhouse Products", value:"inventory" },
         {label: "Our Pictures", value:"pictures" },
       ],

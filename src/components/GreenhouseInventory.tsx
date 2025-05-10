@@ -14,29 +14,38 @@ const GreenhouseInventory = () => {
         <div className="grid md:grid-cols-2 gap-6">
         {/* Tomatoes - Heirloom */}
         <div className="bg-white shadow rounded-xl p-6">
-          <h3 className="text-lg font-bold mb-4 text-green-800">Tomatoes - Heirloom</h3>
+          <h3 className="text-lg font-bold mb-4 text-green-800">Tomatoes<span className="italic text-sm"> (Heirloom)</span></h3>
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
-            <li>San Marzano</li>
-            <li>Black Krim</li>
-            <li>Yellow Pear</li>
-            <li>Mortgage Lifter</li>
-            <li>Red Currant</li>
-            <li>Costoluto Genovese</li>
-            <li>Tiny Tim Basket</li>
-            <li>Sweet 100 <span className="italic text-sm">(not heirloom)</span></li>
+            <li className="flex justify-between">San Marzano<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Black Krim<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Yellow Pear<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Mortgage Lifter<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Red Currant<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Costoluto Genovese<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Tiny Tim Basket<span className="text-green-700 font-bold">$15</span></li>
+            <li className="flex justify-between">Sweet 100 <span className="italic text-sm">(not heirloom)</span><span className="text-green-700 font-bold">$8</span></li>
           </ul>
         </div>
 
         {/* Peppers - Heirloom */}
         <div className="bg-white shadow rounded-xl p-6">
-          <h3 className="text-lg font-bold mb-4 text-green-800">Peppers - Heirloom</h3>
+          <h3 className="text-lg font-bold mb-4 text-green-800">Peppers<span className="italic text-sm"> (Heirloom)</span></h3>
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
-            <li>CA Wonder Bell</li>
-            <li>Poblano</li>
-            <li>Mammoth Jalapeño</li>
-            <li>Thai Hot</li>
-            <li>Cayenne</li>
-            <li>Red Mercury Bell</li>
+            <li className="flex justify-between">CA Wonder Bell<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Poblano<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Mammoth Jalapeño<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Thai Hot<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Cayenne<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Red Mercury Bell<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Black Beauty<span className="text-green-700 font-bold">$6</span></li>
+          </ul>
+        </div>
+
+        {/* Peppers - Heirloom */}
+        <div className="bg-white shadow rounded-xl p-6">
+          <h3 className="text-lg font-bold mb-4 text-green-800">Eggplant</h3>
+          <ul className="text-gray-700 space-y-1 list-disc list-inside">
+            <li className="flex justify-between">Black Beauty<span className="text-green-700 font-bold">$6</span></li>
           </ul>
         </div>
 
@@ -44,10 +53,10 @@ const GreenhouseInventory = () => {
         <div className="bg-white shadow rounded-xl p-6">
           <h3 className="text-lg font-bold mb-4 text-green-800">Herbs</h3>
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
-            <li>Boxwood Basil</li>
-            <li>Holy Basil</li>
-            <li>Thyme</li>
-            <li>Rosemary</li>
+            <li className="flex justify-between">Boxwood Basil<span className="text-green-700 font-bold">$3</span></li>
+            <li className="flex justify-between">Holy Basil<span className="text-green-700 font-bold">$3</span></li>
+            <li className="flex justify-between">Thyme<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Rosemary<span className="text-green-700 font-bold">$6</span></li>
           </ul>
         </div>
 
@@ -55,14 +64,25 @@ const GreenhouseInventory = () => {
         <div className="bg-white shadow rounded-xl p-6">
           <h3 className="text-lg font-bold mb-4 text-green-800">Perennials</h3>
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
-            <li>Verbena - Homestead Purple</li>
-            <li>Evening Primrose</li>
-            <li>Delphinium</li>
-            <li>Yarrow - Paprika</li>
-            <li>Yarrow - Milly Rock Rose</li>
-            <li>Morning Glory</li>
-            <li>Lavender - Phenomenal</li>
-            <li>Lavender - Essence Purple</li>
+            <li className="flex justify-between">Verbena - Homestead Purple<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Evening Primrose<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Delphinium<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Yarrow - Paprika<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Yarrow - Milly Rock Rose<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Morning Glory<span className="text-green-700 font-bold">$10</span></li>
+            <li className="flex justify-between">Lavender - Phenomenal<span className="text-green-700 font-bold">$15</span></li>
+            <li className="flex justify-between">Lavender - Essence Purple<span className="text-green-700 font-bold">$15</span></li>
+            <li className="flex justify-between">Glorious Daisy Double Gold<span className="text-green-700 font-bold">$8</span></li>
+          </ul>
+        </div>
+
+        {/* Perennials 1 Gallon Pot*/}
+        <div className="bg-white shadow rounded-xl p-6">
+          <h3 className="text-lg font-bold mb-4 text-green-800">Perennials<span className="italic text-sm"> (1 Gal Pot)</span></h3>
+          <ul className="text-gray-700 space-y-1 list-disc list-inside">
+            <li className="flex justify-between">Morning Glory<span className="text-green-700 font-bold">$10</span></li>
+            <li className="flex justify-between">Lavender - Phenomenal<span className="text-green-700 font-bold">$15</span></li>
+            <li className="flex justify-between">Lavender - Essence Purple<span className="text-green-700 font-bold">$15</span></li>
           </ul>
         </div>
 
@@ -70,9 +90,20 @@ const GreenhouseInventory = () => {
         <div className="bg-white shadow rounded-xl p-6">
           <h3 className="text-lg font-bold mb-4 text-green-800">Annuals</h3>
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
-            <li>Sunray Dwarf Sunflower</li>
-            <li>Dragon White Begonia</li>
-            <li>Bellaconia Rose Begonia</li>
+            <li className="flex justify-between">Sunray Dwarf Sunflower<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Dragon White Begonia<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Bellaconia Rose Begonia<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Calenda<span className="text-green-700 font-bold">$6</span></li>
+            <li className="flex justify-between">Chrysanthemum Tricolor Daisy<span className="text-green-700 font-bold">$6</span></li>
+          </ul>
+        </div>
+
+        {/* Annuals */}
+        <div className="bg-white shadow rounded-xl p-6">
+          <h3 className="text-lg font-bold mb-4 text-green-800">Annuals</h3>
+          <ul className="text-gray-700 space-y-1 list-disc list-inside">
+            <li className="flex justify-between">Zinnias<span className="text-green-700 font-bold">$5</span></li>
+            <li className="flex justify-between">Marigold<span className="text-green-700 font-bold">$6</span></li>
           </ul>
         </div>
 
@@ -80,54 +111,16 @@ const GreenhouseInventory = () => {
         <div className="bg-white shadow rounded-xl p-6">
           <h3 className="text-lg font-bold mb-4 text-green-800">Berries</h3>
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
-            <li>Black Currant</li>
-            <li>Gooseberry</li>
+            <li className="flex justify-between">Black Currant<span className="text-green-700 font-bold">$20</span></li>
+            <li className="flex justify-between">Gooseberry<span className="text-green-700 font-bold">$20</span></li>
           </ul>
         </div>
 
-
-          
         </div>
       </div>
     </section>
 
-    {/* Pricing Section */}
-    <section className="select-none cursor-default w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-green-900 text-center mb-10">
-          Plant & Product Pricing
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-white shadow rounded-xl p-6">
-            <h3 className="text-lg font-bold mb-4 text-green-800 ">Vegetables & Herbs</h3>
-            <ul className="text-gray-700 space-y-2">
-              <li className="flex justify-between font-bold"><span>Tomatoes</span><span className="text-green-700 font-bold">$8</span></li>
-              <li className="flex justify-between font-bold"><span>Tomato Hanging Baskets</span><span className="text-green-700 font-bold">$15</span></li>
-              <li className="flex justify-between font-bold"><span>Peppers</span><span className="text-green-700 font-bold">$6</span></li>
-              <li className="flex justify-between font-bold"><span>Basil</span><span className="text-green-700 font-bold">$3</span></li>
-              <li className="flex justify-between font-bold"><span>Herbs</span><span className="text-green-700 font-bold">$6</span></li>
-              <li className="flex justify-between font-bold"><span>Onion Starts (Bag)</span><span className="text-green-700 font-bold">$3</span></li>
-            </ul>
-          </div>
-
-          <div className="bg-white shadow rounded-xl p-6">
-            <h3 className="text-lg font-bold mb-4 text-green-800">Flowers & Misc.</h3>
-            <ul className="text-gray-700 space-y-2">
-              <li className="flex justify-between font-bold"><span>Annuals</span><span className="text-green-700 font-bold">$6</span></li>
-              <li className="flex justify-between font-bold"><span>Perennials</span><span className="text-green-700 font-bold">$8</span></li>
-              <li className="flex justify-between font-bold"><span>Petunias - Wave</span><span className="text-green-700 font-bold">$8</span></li>
-              <li className="flex justify-between font-bold"><span>Dwarf Sunflowers</span><span className="text-green-700 font-bold">$5</span></li>
-              <li className="flex justify-between font-bold"><span>Lavender (Gal pot)</span><span className="text-green-700 font-bold">$15</span></li>
-              <li className="flex justify-between font-bold"><span>Morning Glory (Gal Pot)</span><span className="text-green-700 font-bold">$10</span></li>
-              <li className="flex justify-between font-bold"><span>Currants / Gooseberry (2 yr old)</span><span className="text-green-700 font-bold">$20</span></li>
-              <li className="flex justify-between font-bold"><span>Tomato Clips (25)</span><span className="text-green-700 font-bold">$5</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
+  
     </>
     );
 };

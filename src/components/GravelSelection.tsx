@@ -6,7 +6,7 @@ const gravelItems = [
   { name: "5-8-Minus-Crushed", displayName: "5/8 Minus Crushed", price: 32.0, stockStatus: "in-stock" as const},
   { name: "1-1-4-Minus-Crushed", displayName: "1-1/4 Minus Crushed", price: 32.0, stockStatus: "in-stock" as const},
   { name: "3minus", displayName: "3 Minus", price: 32.0, stockStatus: "in-stock" as const},
-  { name: "Pea-gravel-updated", displayName: "Pea Gravel 3/8", price: 35.0, stockStatus: "in-stock" as const},
+  { name: "Pea-gravel-updated", displayName: "Pea Gravel 3/8", price: 40.0, stockStatus: "in-stock" as const},
   { name: "CV-Screened-Rock-1-2-1", displayName: "CV Screened Rock 1/2 - 1", price: 35.0, stockStatus: "in-stock" as const},
   { name: "CV-Drain-Rock-2", displayName: "CV Drain Rock 2", price: 35.0, stockStatus: "in-stock" as const},
   { name: "DW-Screened-Rock-1-2-1", displayName: "DW Screened Rock 1/2 -1", price: 30.0, stockStatus: "in-stock" as const},

@@ -14,6 +14,7 @@ import AffiliatesSection from "./components/AffiliatesSection";
 import ContactSection from "./components/ContactSection";
 import GreenhouseInventory from "./components/GreenhouseInventory";
 import GreenhousePictures from "./components/GreenhousePictures";
+import GreenhouseInfo from "./components/GreenhouseInfo";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -34,6 +35,8 @@ function App() {
         return <GreenhouseInventory />;
       case "pictures":
         return <GreenhousePictures />;
+      case "info":
+        return <GreenhouseInfo />;
       case "services":
         return <ServicesSection />;
       case "affiliates":

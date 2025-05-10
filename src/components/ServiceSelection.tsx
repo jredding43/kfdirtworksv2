@@ -64,7 +64,8 @@ const ServicesSection: React.FC = () => {
                Decorative Rock: ~2,400 lbs<br />
                Sand: ~3,000 lbs<br />
                Bark: ~500-800 lbs<br />
-               Topsoil: ~3,000 lbs
+               Topsoil: ~1,800 lbs <br />
+               Rock: ~2,500 - 2,800 lbs
             </p>
           </div>
         </div>
