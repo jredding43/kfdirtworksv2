@@ -1,5 +1,6 @@
 
 import InventoryNav from "../components/InventoryNav";
+import { useState } from "react";
 
 type Props = {
     onNavigate: (section: string) => void;
@@ -7,6 +8,8 @@ type Props = {
   
 
   const Home: React.FC<Props> = ({ onNavigate }) => {
+
+    const [, setSelectedImage] = useState<string | null>(null);
 
   
     return (
@@ -188,7 +191,39 @@ type Props = {
                 
                 </div>
             </div>
-            </section>
+        </section>
+
+        <section className="select-none cursor-default w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
+            <div className="max-w-6xl mx-auto">
+                {/* Page Title */}
+                <h1 className="text-4xl md:text-5xl font-extrabold text-green-900 text-center mb-6 tracking-tight">
+                Berries & Plants Information Page
+                </h1>
+                <p className="text-center text-green-800 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+                A closer look at our berry selections including Gooseberry and Black Currant. View the original product info sheets below.
+                </p>
+
+                {/* Image Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {[...Array(9)].map((_, i) => {
+                    const imagePath = `/images/info/photo-(${i + 1}).jpg`;
+                    return (
+                    <div
+                        key={i}
+                        onClick={() => setSelectedImage(imagePath)}
+                        className="bg-white border border-green-200 rounded-xl overflow-hidden shadow hover:shadow-md transition cursor-pointer"
+                    >
+                        <img
+                        src={imagePath}
+                        alt={`Berry info ${i + 1}`}
+                        className="w-full h-auto object-cover"
+                        />
+                    </div>
+                    );
+                })}
+                </div>
+            </div>
+        </section>
 
         <section className="mt-20 max-w-5xl mx-auto px-4">
         <h2 className="select-none cursor-default text-3xl font-extrabold text-green-700 mb-8 text-center">Why Locals Choose Us</h2>
