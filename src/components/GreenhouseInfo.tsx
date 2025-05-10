@@ -38,11 +38,11 @@ const GreenhouseInfo = () => {
       {/* Scrollable Modal */}
       {selectedImage && (
         <div
-            className="fixed inset-0 z-50 bg-black bg-opacity-80 overflow-y-auto"
+            className="fixed inset-0 z-50 bg-black bg-opacity-60 overflow-y-auto"
             onClick={() => setSelectedImage(null)}
         >
             <div
-            className="relative max-w-5xl w-full mx-auto mt-80 mb-10 bg-white rounded-xl p-4"
+            className="relative max-w-5xl w-full mx-auto mt-60 mb-10 bg-white rounded-xl p-4"
             onClick={(e) => e.stopPropagation()} 
             >
             {/* Close Button */}
