@@ -10,6 +10,11 @@ const FAQs = () => {
 
   const faqs = [
     {
+      question: "Do you sell by the yard?",
+      answer:
+        "Most materials are sold by the cubic yard, but we also offer half-yard and bagged options. We'll help you calculate what you need.",
+    },
+    {
       question: "What types of materials do you carry?",
       answer:
         "We offer high-quality gravel, bark, decorative rock, topsoil, compost, and mixed soil blends for landscaping, gardening, and construction needs.",
@@ -17,7 +22,7 @@ const FAQs = () => {
     {
       question: "Do you offer delivery?",
       answer:
-        "Yes! We deliver within Kettle Falls and surrounding areas. Delivery charges vary by distance.",
+        "Yes! We deliver within Kettle Falls and surrounding areas. Delivery charges vary by distance. $100 Flat Fee: Within 6 miles. $150/hour: Round-trip beyond 6 miles",
     },
     {
       question: "What's in season at the greenhouse?",
@@ -28,11 +33,6 @@ const FAQs = () => {
       question: "Do I need to bring my own truck or trailer?",
       answer:
         "You're welcome to bring your own, but we can also load you with our equipment or deliver directly to your site.",
-    },
-    {
-      question: "Do you sell by the yard?",
-      answer:
-        "Most materials are sold by the cubic yard, but we also offer half-yard and bagged options. We'll help you calculate what you need.",
     },
     {
       question: "Can I visit without making a purchase?",

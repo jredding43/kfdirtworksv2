@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FAQs from "./FAQs";
 
 export default function ContactSection() {
   const [showPopup, setShowPopup] = useState(false);
@@ -42,6 +43,10 @@ export default function ContactSection() {
           <p className="mt-2 text-lg text-gray-700">
             Reach Out and Build With Us - We're Here to Help Every Step of the Way.
           </p>
+
+          <div className="max-w-5xl py-8">
+            <FAQs />
+          </div>
         </div>
 
         <div className="max-w-4xl mx-auto grid gap-12 md:grid-cols-2 items-start bg-white rounded-2xl shadow-lg p-6 md:p-10 border border-gray-200">
@@ -173,6 +178,8 @@ export default function ContactSection() {
           )}
         </div>
       </section>
+
+      
     </>
   );
 }
