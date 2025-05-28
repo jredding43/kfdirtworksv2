@@ -79,7 +79,8 @@ const GreenhouseInventory = () => {
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
             <li className="flex justify-between">Verbena - Homestead Purple<span className="text-green-700 font-bold">$8</span></li>
             <li className="flex justify-between">Evening Primrose<span className="text-green-700 font-bold">$8</span></li>
-            <li className="flex justify-between">Delphinium<span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Delphinium - Blue <span className="text-green-700 font-bold">$8</span></li>
+            <li className="flex justify-between">Delphinium - Magic<span className="text-green-700 font-bold">$8</span></li>
             <li className="flex justify-between">Yarrow - Paprika<span className="text-green-700 font-bold">$8</span></li>
             <li className="flex justify-between">Yarrow - Milly Rock Rose<span className="text-green-700 font-bold">$8</span></li>
             {/* <li className="flex justify-between">Glorious Daisy Double Gold<span className="text-green-700 font-bold">$8</span></li>  */}
@@ -118,6 +119,7 @@ const GreenhouseInventory = () => {
           <ul className="text-gray-700 space-y-1 list-disc list-inside">
             <li className="flex justify-between">Black Currant<span className="text-green-700 font-bold">$20</span></li>
             <li className="flex justify-between">Gooseberry<span className="text-green-700 font-bold">$20</span></li>
+            <li className="flex justify-between">Strawberry<span className="text-green-700 font-bold">$3</span></li>
           </ul>
         </div>
 
