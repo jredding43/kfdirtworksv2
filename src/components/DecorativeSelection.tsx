@@ -6,7 +6,7 @@ const decorativeItems = [
   { name: "Huckleberry-Greenstone-1-1-1-2", displayName: "Huckleberry Greenstone 1 - 1-1/2", price: 55.0, stockStatus: "out-of-stock" as const},
   { name: "Huckleberry-Greenstone-1-2-1", displayName: "Huckleberry Greenstone 1/2 - 1", price: 60.0, stockStatus: "out-of-stock" as const},
   { name: "Grey-Dolomite", displayName: "Gray Dolomite 2 Minus", price: 60.0, stockStatus: "in-stock" as const},
-  { name: "White-Large", displayName: "White Large 1 - 1-1/2", price: 75.0, stockStatus: "out-of-stock" as const},
+  { name: "White-Large", displayName: "White Large 1 - 1-1/2", price: 75.0, stockStatus: "in-stock" as const},
   { name: "White-Medium", displayName: "White Medium 1/2 - 1", price: 80.0, stockStatus: "in-stock" as const},
   { name: "White-Small", displayName: "White Small", price: 65.0, stockStatus: "in-stock" as const},
   { name: "Basalt-1-1-2", displayName: "Basalt 1-1/2", price: 65.0, stockStatus: "in-stock" as const},
