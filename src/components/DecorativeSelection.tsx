@@ -2,7 +2,8 @@ import React from "react";
 import SectionGrid from "../components/SelectionGrid";
 
 const decorativeItems = [
-  { name: "Gray-Chip", displayName: "Gray Chip 3/4 - 1/2", price: 40.0, stockStatus: "in-stock" as const},
+  { name: "Gray-Chip", displayName: "Gray Chip 1/4 - 1/2", price: 40.0, stockStatus: "in-stock" as const},
+  { name: "Gray-Chip", displayName: "Gray Chip 3/4 - 1 - 1/2", price: 40.0, stockStatus: "in-stock" as const},
   { name: "Huckleberry-Greenstone-1-1-1-2", displayName: "Huckleberry Greenstone 1 - 1-1/2", price: 55.0, stockStatus: "out-of-stock" as const},
   { name: "Huckleberry-Greenstone-1-2-1", displayName: "Huckleberry Greenstone 1/2 - 1", price: 60.0, stockStatus: "out-of-stock" as const},
   { name: "Grey-Dolomite", displayName: "Gray Dolomite 2 Minus", price: 60.0, stockStatus: "in-stock" as const},
