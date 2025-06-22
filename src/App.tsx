@@ -15,6 +15,7 @@ import ContactSection from "./components/ContactSection";
 import GreenhouseInventory from "./components/GreenhouseInventory";
 import GreenhousePictures from "./components/GreenhousePictures";
 import GreenhouseInfo from "./components/GreenhouseInfo";
+import Feed from "./components/Feed";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -43,6 +44,8 @@ function App() {
         return <AffiliatesSection />;
       case "contact":
         return <ContactSection />;
+      case "feed":
+        return <Feed />;
       case "home":
       default:
         return <Home onNavigate={setActiveSection} />;

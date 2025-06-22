@@ -60,6 +60,9 @@ type Props = {
         <section className="mt-20 bg-orange-200 py-10 px-4 text-center">
             <h2 className="select-none cursor-default text-2xl md:text-4xl lg:text-6xl font-bold text-green-800 mb-6">June Specials</h2>
             <p className="select-none cursor-default text-2xl md:text-2xl lg:text-3xl mt-2 text-gray-700 max-w-xl mx-auto">
+                <span className="font-extrabold text-4xl">  Now Selling KANIKSU FEEDS  </span>
+            </p>
+            <p className="select-none cursor-default text-2xl md:text-2xl lg:text-3xl mt-2 text-gray-700 max-w-xl mx-auto">
                 Buy 3 get 1 <span className="text-green-700 font-extrabold"> FREE </span> Pepper/ Herb/ Flower
             </p>
         </section>
