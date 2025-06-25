@@ -56,6 +56,9 @@ type Props = {
 
         </section>
 
+        <section className="mt-20 bg-orange-200 py-10 px-4 text-center">
+            <h2 className="select-none cursor-default text-2xl md:text-4xl lg:text-6xl font-bold text-green-800 mb-6">Closed July 4th & 5th</h2>
+        </section>
 
         <section className="mt-20 bg-orange-200 py-10 px-4 text-center">
             <h2 className="select-none cursor-default text-2xl md:text-4xl lg:text-6xl font-bold text-green-800 mb-6">June Specials</h2>
