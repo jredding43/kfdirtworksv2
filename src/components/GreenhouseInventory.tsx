@@ -4,6 +4,13 @@ const GreenhouseInventory = () => {
 
     return(
     <>
+    <div className="relative w-full">
+      {/* 🔒 Overlay Message */}
+      <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-30 text-white text-center px-6">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">🌱 Closed for the Season</h1>
+        <p className="text-xl md:text-2xl">Come back next spring!</p>
+      </div>
+
      {/* Plants  */}
       <section className="select-none cursor-default w-full bg-gradient-to-br from-green-100 to-yellow-50 py-20 px-4">
       <div className="max-w-5xl mx-auto">
@@ -319,7 +326,7 @@ const GreenhouseInventory = () => {
       </div>
     </section>
 
-  
+    </div>
     </>
     );
 };

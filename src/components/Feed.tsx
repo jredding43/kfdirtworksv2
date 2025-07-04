@@ -11,6 +11,9 @@ const Feed = () => {
     { item: "NWA Layer Pellets", price: "$16.70" },
     { item: "All Stock", price: "$19.10" },
     { item: "Dry COB", price: "$19.85" },
+    { item: "Rabbit Grower", price: "$22.00" },
+    { item: "Dairy Feed Mash", price: "$22.55" },
+    { item: "Game Bird Mash", price: "$27.75" },
   ];
 
   return (
