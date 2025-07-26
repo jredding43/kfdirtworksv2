@@ -14,7 +14,7 @@ const soilItems = [
 ];
 
 const SoilSection: React.FC = () => (
-  <SectionGrid title="Soil Products" items={soilItems} imagePath="soil" />
+  <SectionGrid title="Soil Products" subtitle="Sold by the cubic yard, but we also offer half-yard and bucket options. We'll help you calculate what you need." items={soilItems} imagePath="soil" />
 );
 
 export default SoilSection;

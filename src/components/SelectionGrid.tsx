@@ -10,17 +10,23 @@ export type Item = {
 
 type Props = {
   title: string;
+  subtitle: string;
   items: Item[];
   imagePath: string;
 };
 
-const SectionGrid: React.FC<Props> = ({ title, items, imagePath }) => {
+const SectionGrid: React.FC<Props> = ({ title, subtitle, items, imagePath }) => {
   return (
     <section className="py-16 bg-gradient-to-br from-green-100 to-yellow-50">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-green-800 mb-10 text-center">
           {title}
         </h2>
+
+        {subtitle && (
+          <p className="text-md text-black font-bold text-center mb-6">{subtitle}</p>
+        )}
+
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <div

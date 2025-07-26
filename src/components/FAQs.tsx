@@ -12,7 +12,7 @@ const FAQs = () => {
     {
       question: "Do you sell by the yard?",
       answer:
-        "Most materials are sold by the cubic yard, but we also offer half-yard and bagged options. We'll help you calculate what you need.",
+        "Most materials are sold by the cubic yard, but we also offer half-yard and bucket options. We'll help you calculate what you need.",
     },
     {
       question: "What types of materials do you carry?",

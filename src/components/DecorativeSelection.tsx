@@ -22,7 +22,7 @@ const decorativeItems = [
 ];
 
 const DecorativeSection: React.FC = () => (
-  <SectionGrid title="Decorative Rock" items={decorativeItems} imagePath="decorative" />
+  <SectionGrid title="Decorative Rock" subtitle="Sold by the cubic yard, but we also offer half-yard and bucket options. We'll help you calculate what you need." items={decorativeItems} imagePath="decorative" />
 );
 
 export default DecorativeSection;

@@ -16,7 +16,7 @@ const gravelItems = [
 ];
 
 const GravelSection: React.FC = () => (
-  <SectionGrid title="Gravel & Sand" items={gravelItems} imagePath="gravel" />
+  <SectionGrid title="Gravel & Sand" subtitle="Sold by the cubic yard, but we also offer half-yard and bucket options. We'll help you calculate what you need." items={gravelItems} imagePath="gravel" />
 );
 
 export default GravelSection;
