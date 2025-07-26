@@ -58,6 +58,14 @@ type Props = {
 
         <section className="mt-20 bg-orange-200 py-10 px-4 text-center">
             <p className="select-none cursor-default text-2xl md:text-2xl lg:text-3xl mt-2 text-gray-700 max-w-xl mx-auto">
+                <span className="font-extrabold text-4xl">  July 30th - August 2nd will be last full week open. <br></br> </span> 
+                <span className="font-extrabold text-4xl">   <br></br> </span> 
+                <span className="font-extrabold text-4xl">  Starting August 8th Dirtworks will be open Friday and Saturdays ONLY.  </span>
+            </p>
+        </section>
+
+        <section className="mt-20 bg-orange-200 py-10 px-4 text-center">
+            <p className="select-none cursor-default text-2xl md:text-2xl lg:text-3xl mt-2 text-gray-700 max-w-xl mx-auto">
                 <span className="font-extrabold text-4xl">  Now Selling KANIKSU FEEDS  </span>
             </p>
         </section>
