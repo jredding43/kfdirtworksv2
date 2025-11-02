@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway   # or use the GitHub backend if you prefer
+  name: git-gateway
   branch: main
 
-local_backend: true
+site_url: https://kfdirtworks.com
+display_url: https://kfdirtworks.com
 
 media_folder: "public/uploads"
 public_folder: "/uploads"

@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Forward Netlify Identity invite tokens to /admin early -->
+    <script>
+      if (location.hash && location.hash.includes('invite_token=')) {
+        location.href = '/admin/' + location.hash;
+      }
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
