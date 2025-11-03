@@ -64,7 +64,7 @@ export default function ContactSection() {
               <strong>Business Hours:</strong>
             </p>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Fri-Sat: 9am-5pm</li>
+              <li>Fri-Sat: 9am-3pm</li>
               <li>Closed Sun-Thur</li>
             </ul>
           </div>

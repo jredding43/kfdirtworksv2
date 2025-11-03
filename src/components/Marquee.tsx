@@ -12,8 +12,9 @@ const Marquee = () => {
               <span>Greenhouse open — flowers, veggie starts & more</span>
               <span>Friendly, knowledgeable service from a family-owned business</span>
               <span>Affordable pricing and easy in-yard pickup</span>
-              <span>Open Wednesday-Saturday · 9AM-5PM · (509) 738-2010</span>
+              <span>Open Friday-Saturday · 9AM-3PM · (509) 738-2010</span>
               <span>Now Sellers of KANUKSU FEED. Stop in and pick up your feed!</span>
+              <span>Come look at our Alfalf hay and straw</span>
             </div>
           ))}
         </div>
