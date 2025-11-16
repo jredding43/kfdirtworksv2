@@ -34,7 +34,7 @@ type Props = {
         <div className="select-none cursor-default mt-8 text-2xl lg:text-4xl space-y-1">
             <p>764 Hwy 395 N, Kettle Falls WA 99141</p>
             <p>(509) 738-2010</p>
-            <p>Fri-Sat · 9AM-5PM</p>
+            <p>Fri-Sat · 9AM-3PM</p>
         </div>
 
         <div className="mt-10">
