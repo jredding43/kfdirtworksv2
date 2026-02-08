@@ -75,7 +75,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
                 (509) 738-2010
               </a>
             </li>
-            <li>Wed-Sat · 9AM-5PM</li>
+            <li>Fri-Sat · 9AM-3PM</li>
           </ul>
         </div>
 
