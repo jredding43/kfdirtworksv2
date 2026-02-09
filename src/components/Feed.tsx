@@ -23,7 +23,7 @@ const Feed = () => {
       </h1>
       <p className="text-center text-md text-gray-600 mb-6">
         <span className="block font-medium">Pick-up Available</span>
-        Friday & aturday<strong>9am-3pm</strong><br />
+        Friday & Saturday<strong> 9am-3pm</strong><br />
       </p>
 
       <h2 className="text-2xl font-semibold text-center mt-8 mb-4">
